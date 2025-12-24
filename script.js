@@ -50,3 +50,23 @@ if (galleryToast) {
     });
   }
 }
+
+// Tabs Functionality
+const tabLinks = document.querySelectorAll('.tab-link');
+const tabContents = document.querySelectorAll('.tab-content');
+
+if (tabLinks.length > 0) {
+  tabLinks.forEach(link => {
+    link.addEventListener('click', () => {
+      const tabId = link.getAttribute('data-tab');
+
+      // Remove active class from all tabs and contents
+      tabLinks.forEach(l => l.classList.remove('active'));
+      tabContents.forEach(c => c.classList.remove('active'));
+
+      // Add active class to clicked tab and corresponding content
+      link.classList.add('active');
+      document.getElementById(tabId).classList.add('active');
+    });
+  });
+}

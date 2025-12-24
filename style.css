@@ -779,6 +779,125 @@ footer a:hover {
   max-width: 450px;
 }
 
+/* Social Media Cards Section */
+.social-media-cards {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 2rem 2rem;
+}
+
+/* Story Section with Tabs */
+.story-section {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.story-section h2 {
+  font-family: 'Patrick Hand', cursive;
+  font-size: 2rem;
+  color: #e74c3c;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+/* Tabs Navigation */
+.tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+  justify-content: center;
+}
+
+.tab-link {
+  padding: 0.8rem 1.5rem;
+  background: white;
+  border: 2px solid #e74c3c;
+  border-radius: 25px;
+  cursor: pointer;
+  font-weight: 500;
+  color: #e74c3c;
+  transition: all 0.3s ease;
+}
+
+.tab-link:hover {
+  background: #fff5f5;
+}
+
+.tab-link.active {
+  background: linear-gradient(135deg, #e74c3c, #c0392b);
+  color: white;
+  border-color: #e74c3c;
+}
+
+/* Tab Content */
+.tab-content {
+  display: none;
+  background: white;
+  border-radius: 20px;
+  padding: 2rem;
+  box-shadow: 0 10px 30px rgba(231, 76, 60, 0.1);
+  animation: fadeIn 0.3s ease;
+}
+
+.tab-content.active {
+  display: block;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.tab-content h3 {
+  font-family: 'Patrick Hand', cursive;
+  font-size: 1.5rem;
+  color: #e74c3c;
+  margin-bottom: 1rem;
+  margin-top: 1.5rem;
+}
+
+.tab-content h3:first-child {
+  margin-top: 0;
+}
+
+.tab-content h4 {
+  font-family: 'Patrick Hand', cursive;
+  font-size: 1.2rem;
+  color: #e74c3c;
+  margin-top: 1.5rem;
+  margin-bottom: 0.8rem;
+}
+
+.tab-content p {
+  color: #666;
+  line-height: 1.8;
+  margin-bottom: 1rem;
+}
+
+.tab-content ul {
+  margin: 1rem 0;
+  padding-left: 1.5rem;
+}
+
+.tab-content li {
+  color: #666;
+  margin-bottom: 0.6rem;
+  line-height: 1.7;
+}
+
+.tab-content em {
+  font-style: italic;
+  color: #888;
+}
+
 /* Mobile Responsive */
 @media (max-width: 768px) {
   .hamburger {
