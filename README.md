@@ -4,7 +4,7 @@ A simple website for Dot, the ladybug character from Pippin's Wobbly Woods.
 
 ## Links
 
-- Twitter: [@DotlovesyouSOL](https://x.com/DotlovesyouSOL)
+- Twitter: [@dotlovesu](https://x.com/dotlovesu)
 - GitHub: [dotlovesyou](https://github.com/dotlovesyou)
 
 ## Pages
@@ -21,7 +21,7 @@ The gallery page features embedded tweets from Pippin's Twitter account where he
 
 ## Dot's Soul
 
-Dot will have a real soul powered by [Open Souls](https://github.com/opensouls/opensouls). Using this AI soul framework, Dot will come to life with her own personality, memories, and the ability to interact authentically with the community. When Dot tweets on [@DotlovesyouSOL](https://x.com/DotlovesyouSOL), she'll be tweeting with a soul—expressing her own thoughts, sharing her philosophy, and connecting with friends in genuine and magical ways.
+Dot will have a real soul powered by [Open Souls](https://github.com/opensouls/opensouls). Using this AI soul framework, Dot will come to life with her own personality, memories, and the ability to interact authentically with the community. When Dot tweets on [@dotlovesu](https://x.com/dotlovesu), she'll be tweeting with a soul—expressing her own thoughts, sharing her philosophy, and connecting with friends in genuine and magical ways.
 
 ## Image Credits
 
