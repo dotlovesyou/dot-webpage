@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Body -->
+  <ellipse cx="50" cy="55" rx="35" ry="30" fill="#e74c3c"/>
+  <!-- Wing line -->
+  <line x1="50" y1="25" x2="50" y2="85" stroke="#2c3e50" stroke-width="2"/>
+  <!-- Spots -->
+  <circle cx="35" cy="45" r="6" fill="#2c3e50"/>
+  <circle cx="65" cy="45" r="6" fill="#2c3e50"/>
+  <circle cx="30" cy="65" r="5" fill="#2c3e50"/>
+  <circle cx="70" cy="65" r="5" fill="#2c3e50"/>
+  <circle cx="42" cy="75" r="4" fill="#2c3e50"/>
+  <circle cx="58" cy="75" r="4" fill="#2c3e50"/>
+  <!-- Head -->
+  <circle cx="50" cy="22" r="15" fill="#2c3e50"/>
+  <!-- Eyes -->
+  <circle cx="44" cy="20" r="4" fill="white"/>
+  <circle cx="56" cy="20" r="4" fill="white"/>
+  <circle cx="45" cy="20" r="2" fill="#2c3e50"/>
+  <circle cx="57" cy="20" r="2" fill="#2c3e50"/>
+  <!-- Antennae -->
+  <path d="M42 10 Q38 2 32 5" stroke="#2c3e50" stroke-width="2" fill="none"/>
+  <path d="M58 10 Q62 2 68 5" stroke="#2c3e50" stroke-width="2" fill="none"/>
+  <circle cx="32" cy="5" r="3" fill="#2c3e50"/>
+  <circle cx="68" cy="5" r="3" fill="#2c3e50"/>
+  <!-- Smile -->
+  <path d="M44 26 Q50 32 56 26" stroke="white" stroke-width="2" fill="none" stroke-linecap="round"/>
+</svg>

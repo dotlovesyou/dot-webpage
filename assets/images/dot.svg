@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- Shadow -->
+  <ellipse cx="100" cy="185" rx="50" ry="10" fill="rgba(0,0,0,0.1)"/>
+
+  <!-- Legs -->
+  <path d="M55 130 Q40 140 35 155" stroke="#2c3e50" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <path d="M65 140 Q50 155 45 170" stroke="#2c3e50" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <path d="M80 145 Q70 165 65 175" stroke="#2c3e50" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <path d="M145 130 Q160 140 165 155" stroke="#2c3e50" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <path d="M135 140 Q150 155 155 170" stroke="#2c3e50" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <path d="M120 145 Q130 165 135 175" stroke="#2c3e50" stroke-width="4" fill="none" stroke-linecap="round"/>
+
+  <!-- Body -->
+  <ellipse cx="100" cy="115" rx="55" ry="50" fill="#e74c3c"/>
+
+  <!-- Wing highlight -->
+  <ellipse cx="85" cy="100" rx="30" ry="25" fill="#ec7063" opacity="0.5"/>
+
+  <!-- Wing line -->
+  <line x1="100" y1="65" x2="100" y2="165" stroke="#2c3e50" stroke-width="3"/>
+
+  <!-- Spots on left wing -->
+  <circle cx="70" cy="95" r="10" fill="#2c3e50"/>
+  <circle cx="55" cy="125" r="8" fill="#2c3e50"/>
+  <circle cx="80" cy="140" r="7" fill="#2c3e50"/>
+  <circle cx="60" cy="150" r="5" fill="#2c3e50"/>
+
+  <!-- Spots on right wing -->
+  <circle cx="130" cy="95" r="10" fill="#2c3e50"/>
+  <circle cx="145" cy="125" r="8" fill="#2c3e50"/>
+  <circle cx="120" cy="140" r="7" fill="#2c3e50"/>
+  <circle cx="140" cy="150" r="5" fill="#2c3e50"/>
+
+  <!-- Head -->
+  <circle cx="100" cy="55" r="25" fill="#2c3e50"/>
+
+  <!-- Eyes -->
+  <circle cx="90" cy="50" r="8" fill="white"/>
+  <circle cx="110" cy="50" r="8" fill="white"/>
+  <circle cx="92" cy="50" r="4" fill="#2c3e50"/>
+  <circle cx="112" cy="50" r="4" fill="#2c3e50"/>
+  <!-- Eye sparkle -->
+  <circle cx="94" cy="48" r="1.5" fill="white"/>
+  <circle cx="114" cy="48" r="1.5" fill="white"/>
+
+  <!-- Antennae -->
+  <path d="M85 35 Q75 15 65 20" stroke="#2c3e50" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <path d="M115 35 Q125 15 135 20" stroke="#2c3e50" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <circle cx="65" cy="20" r="6" fill="#2c3e50"/>
+  <circle cx="135" cy="20" r="6" fill="#2c3e50"/>
+
+  <!-- Rosy cheeks -->
+  <ellipse cx="78" cy="58" rx="5" ry="3" fill="#ffb3b3" opacity="0.6"/>
+  <ellipse cx="122" cy="58" rx="5" ry="3" fill="#ffb3b3" opacity="0.6"/>
+
+  <!-- Smile -->
+  <path d="M90 62 Q100 72 110 62" stroke="white" stroke-width="3" fill="none" stroke-linecap="round"/>
+</svg>
