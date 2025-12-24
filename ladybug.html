@@ -8,6 +8,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Patrick+Hand&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
+  <!-- Model Viewer for 3D ladybug -->
+  <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.3.0/model-viewer.min.js"></script>
 </head>
 <body>
   <header>
@@ -31,6 +33,24 @@
     <img src="assets/images/mainimg-removebg-preview.png" alt="Dot" />
     <h1>Meet Dot</h1>
     <p>The lucky ladybug who found a unicorn friend.</p>
+  </section>
+
+  <!-- 3D Ladybug Section -->
+  <section class="model-section">
+    <h2>Explore Dot in 3D</h2>
+    <p>Click and drag to rotate, scroll to zoom!</p>
+    <div class="model-container">
+      <model-viewer
+        src="assets/images/ladybug_lowpoly.glb"
+        alt="3D Ladybug Model"
+        auto-rotate
+        camera-controls
+        shadow-intensity="1"
+        exposure="1"
+        camera-orbit="45deg 75deg 2.5m"
+        style="width: 100%; height: 400px;"
+      ></model-viewer>
+    </div>
   </section>
 
   <!-- Social Media Cards -->

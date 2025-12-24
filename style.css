@@ -918,6 +918,39 @@ footer a:hover {
   color: #888;
 }
 
+/* 3D Model Section */
+.model-section {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.model-section h2 {
+  font-family: 'Patrick Hand', cursive;
+  font-size: 2rem;
+  color: #e74c3c;
+  margin-bottom: 0.5rem;
+}
+
+.model-section p {
+  color: #666;
+  margin-bottom: 1.5rem;
+}
+
+.model-container {
+  background: white;
+  border-radius: 20px;
+  padding: 1rem;
+  box-shadow: 0 10px 40px rgba(231, 76, 60, 0.15);
+  border: 2px solid #e74c3c;
+  overflow: hidden;
+}
+
+.model-container model-viewer {
+  border-radius: 15px;
+}
+
 /* Mobile Responsive */
 @media (max-width: 768px) {
   .hamburger {
