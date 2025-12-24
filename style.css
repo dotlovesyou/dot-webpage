@@ -100,7 +100,15 @@ nav a:hover::after {
 }
 
 .hero-model {
-  margin-bottom: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.hero-model model-viewer {
+  display: block;
+  margin: 0 auto;
 }
 
 .hero-hint {
