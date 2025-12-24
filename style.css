@@ -939,15 +939,11 @@ footer a:hover {
 }
 
 .model-container {
-  background: radial-gradient(circle, #000 10%, transparent 10%),
-              radial-gradient(circle, #000 10%, transparent 10%),
-              #e74c3c;
-  background-size: 30px 30px;
-  background-position: 0 0, 15px 15px;
+  background: linear-gradient(135deg, #fff5f5 0%, #ffe4e4 50%, #ffd4d4 100%);
   border-radius: 20px;
   padding: 1rem;
   box-shadow: 0 10px 40px rgba(231, 76, 60, 0.15);
-  border: 2px solid #c0392b;
+  border: 2px solid #e74c3c;
   overflow: hidden;
 }
 
