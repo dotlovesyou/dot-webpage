@@ -32,3 +32,21 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     }
   });
 });
+
+// Gallery Toast Notification
+const galleryToast = document.getElementById('galleryToast');
+const toastClose = document.getElementById('toastClose');
+
+if (galleryToast) {
+  // Show toast after a short delay
+  setTimeout(() => {
+    galleryToast.classList.add('active');
+  }, 1000);
+
+  // Close toast when clicking X
+  if (toastClose) {
+    toastClose.addEventListener('click', () => {
+      galleryToast.classList.remove('active');
+    });
+  }
+}

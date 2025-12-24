@@ -9,9 +9,20 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <!-- Gallery Toast Notification -->
+  <div class="toast-notification" id="galleryToast">
+    <button class="toast-close" id="toastClose">&times;</button>
+    <img src="assets/images/mainimgnav bar.png" alt="Dot" class="toast-image"/>
+    <div class="toast-text">
+      <strong>Check out the Gallery!</strong>
+      <p>Tweets where Pippin talks about his ladybug friend.</p>
+    </div>
+    <a href="gallery.html" class="toast-button">View</a>
+  </div>
+
   <header>
     <a href="index.html" class="logo">
-      <img src="assets/images/dot.jpg" alt="Dot Logo"/>
+      <img src="assets/images/mainimgnav bar.png" alt="Dot Logo"/>
       Dot
     </a>
     <nav>
@@ -26,7 +37,7 @@
   </header>
 
   <section class="hero">
-    <img src="assets/images/dot.jpg" alt="Dot" />
+    <img src="assets/images/mainimg-removebg-preview.png" alt="Dot" />
     <h1>Welcome to Spotted Gardens</h1>
     <p>A place where tiny wonders create beautiful patterns, and each spot tells a story of friendship.</p>
     <p><a href="https://x.com/DotlovesyouSOL" target="_blank">Twitter</a> <a href="https://github.com/dotlovesyou?tab=repositories" target="_blank">Github</a></p>
@@ -53,11 +64,16 @@
   <section class="image-credits">
     <h2>Image Credits</h2>
     <p>The Dot image used on this site is from official Pippin tweets:</p>
-    <ul>
-      <li><a href="https://x.com/pippinlovesyou/status/1898115123354468772" target="_blank">Tweet 1</a></li>
-      <li><a href="https://x.com/pippinlovesyou/status/1893722546085810615" target="_blank">Tweet 2</a></li>
-    </ul>
+    <div class="credits-tweets">
+      <div class="tweet-embed">
+        <blockquote class="twitter-tweet"><a href="https://twitter.com/pippinlovesyou/status/1898115123354468772"></a></blockquote>
+      </div>
+      <div class="tweet-embed">
+        <blockquote class="twitter-tweet"><a href="https://twitter.com/pippinlovesyou/status/1893722546085810615"></a></blockquote>
+      </div>
+    </div>
   </section>
+  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
   <footer>
     <p>Thank you for visiting. Every little spot of kindness makes the garden bloom brighter.</p>
