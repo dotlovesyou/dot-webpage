@@ -30,16 +30,7 @@
 
   <!-- Hero Section -->
   <section class="hero">
-    <img src="assets/images/mainimg-removebg-preview.png" alt="Dot" />
-    <h1>Meet Dot</h1>
-    <p>The lucky ladybug who found a unicorn friend.</p>
-  </section>
-
-  <!-- 3D Ladybug Section -->
-  <section class="model-section">
-    <h2>Explore Dot in 3D</h2>
-    <p>Click and drag to rotate, scroll to zoom!</p>
-    <div class="model-container">
+    <div class="hero-model">
       <model-viewer
         src="assets/images/ladybug.glb"
         alt="3D Ladybug Model"
@@ -48,10 +39,13 @@
         shadow-intensity="1"
         exposure="1"
         camera-orbit="45deg 75deg 2.5m"
-        style="width: 100%; height: 400px; background-color: transparent;"
+        style="width: 300px; height: 300px; background-color: transparent;"
         environment-image="neutral"
       ></model-viewer>
     </div>
+    <h1>Meet Dot</h1>
+    <p>The lucky ladybug who found a unicorn friend.</p>
+    <p class="hero-hint">Click and drag to rotate, scroll to zoom!</p>
   </section>
 
   <!-- Social Media Cards -->

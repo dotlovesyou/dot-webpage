@@ -99,6 +99,16 @@ nav a:hover::after {
   animation: float 3s ease-in-out infinite;
 }
 
+.hero-model {
+  margin-bottom: 1rem;
+}
+
+.hero-hint {
+  font-size: 0.9rem;
+  color: #999;
+  font-style: italic;
+}
+
 @keyframes float {
   0%, 100% {
     transform: translateY(0);
