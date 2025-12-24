@@ -939,12 +939,16 @@ footer a:hover {
 }
 
 .model-container {
-  background: white;
+  background: #ffffff;
   border-radius: 20px;
   padding: 1rem;
   box-shadow: 0 10px 40px rgba(231, 76, 60, 0.15);
   border: 2px solid #e74c3c;
   overflow: hidden;
+}
+
+.model-container model-viewer {
+  --poster-color: transparent;
 }
 
 .model-container model-viewer {
