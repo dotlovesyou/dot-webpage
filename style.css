@@ -278,6 +278,26 @@ footer a:hover {
   margin-bottom: 1rem;
 }
 
+.ca-banner {
+  background: linear-gradient(135deg, #e74c3c, #c0392b);
+  color: white;
+  padding: 1rem 1.5rem;
+  border-radius: 15px;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  font-size: 1.1rem;
+  box-shadow: 0 5px 20px rgba(231, 76, 60, 0.3);
+}
+
+.ca-banner code {
+  background: rgba(255, 255, 255, 0.2);
+  padding: 0.3rem 0.6rem;
+  border-radius: 8px;
+  font-family: monospace;
+  font-size: 0.95rem;
+  word-break: break-all;
+}
+
 .purchase-section {
   background: white;
   border-radius: 15px;
