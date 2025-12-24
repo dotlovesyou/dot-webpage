@@ -19,6 +19,12 @@ A simple website for Dot, the ladybug character from Pippin's Wobbly Woods.
 
 The gallery page features embedded tweets from Pippin's Twitter account where he mentions his ladybug friend Dot. These are official tweets showing the lore connection between Pippin and Dot.
 
+## Image Credits
+
+The Dot image used on this site is from official Pippin tweets:
+- [Tweet 1](https://x.com/pippinlovesyou/status/1898115123354468772)
+- [Tweet 2](https://x.com/pippinlovesyou/status/1893722546085810615)
+
 ## Tech
 
 Static HTML/CSS/JS site. Uses Twitter's embed widget for the gallery.
