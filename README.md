@@ -1,5 +1,7 @@
 # Dot - Pippin's Ladybug Friend
 
+**CA:** `rS5chqmj5tmspA1fn49MmtaNXkSXd91fh2Rp3jGpump`
+
 A simple website for Dot, the ladybug character from Pippin's Wobbly Woods.
 
 ## Links
